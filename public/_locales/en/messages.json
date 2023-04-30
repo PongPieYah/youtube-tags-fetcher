@@ -1,0 +1,32 @@
+{
+  "appName": {
+    "message": "YouTube Video Tags Getter"
+  },
+  "appDescription": {
+    "message": "Allows you to view or copy YouTube video tags to clipboard."
+  },
+  "defaultTitle": {
+    "message": "Show description"
+  },
+  "get": {
+    "message": "Get YouTube video tags"
+  },
+  "show": {
+    "message": "Show"
+  },
+  "copy": {
+    "message": "Copy to clipboard"
+  },
+  "tagList": {
+    "message": "Tag List"
+  },
+  "copyBtnTxt": {
+    "message": "Copy All"
+  },
+  "closeBtnTxt": {
+    "message": "Close"
+  },
+  "copyComplete": {
+    "message": "Copied to clipboard."
+  }
+}

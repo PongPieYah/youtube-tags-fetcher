@@ -1,0 +1,32 @@
+{
+  "appName": {
+    "message": "YouTube 動画のタグを取得"
+  },
+  "appDescription": {
+    "message": "YouTube 動画のタグを表示またはクリップボードへのコピーを可能にする。"
+  },
+  "defaultTitle": {
+    "message": "説明を表示"
+  },
+  "get": {
+    "message": "YouTube 動画のタグを取得"
+  },
+  "show": {
+    "message": "表示"
+  },
+  "copy": {
+    "message": "クリップボードにコピー"
+  },
+  "tagList": {
+    "message": "タグ一覧"
+  },
+  "copyBtnTxt": {
+    "message": "全てコピー"
+  },
+  "closeBtnTxt": {
+    "message": "閉じる"
+  },
+  "copyComplete": {
+    "message": "クリップボードにコピーしました。"
+  }
+}
