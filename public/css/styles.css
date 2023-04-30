@@ -1,0 +1,86 @@
+#tag-dialog {
+    border-radius: 5px;
+    border: none;
+}
+
+#tag-dialog::backdrop {
+    background: rgba(94, 94, 94, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+.tag-dialog-header {
+    display: flex;
+}
+
+.tag-dialog-header>div:first-child {
+    margin-right: 3em;
+}
+
+.tag-dialog-title {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.tag-item {
+    font-size: 14px;
+}
+
+.tag-dialog-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.2em;
+    margin: 0.1em;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    color: #fff;
+}
+
+.tag-dialog-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.tag-dialog-btn.blue {
+    background-color: lightskyblue;
+}
+
+.tag-dialog-btn.gray {
+    background-color: lightgray;
+}
+
+.tag-list-group {
+    counter-reset: list;
+    list-style-type: none;
+    padding: 0;
+}
+
+.tag-list-group li {
+    position: relative;
+    padding: 0 0 0 20px;
+    margin: 7px 0 7px 0px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    border-bottom: dashed 1px #F6A38B;
+}
+
+.tag-list-group li:before {
+    counter-increment: list;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0px;
+    height: 0;
+    width: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 7px solid #F6A38B;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
